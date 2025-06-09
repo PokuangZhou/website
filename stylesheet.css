@@ -140,3 +140,19 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  td {
+    padding: 8px !important; 
+  }
+
+  video {
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+  }
+
+  .papertitle {
+    font-size: 16px;
+  }
+}
