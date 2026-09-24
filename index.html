@@ -23,7 +23,7 @@
                   Pokuang Zhou
                 </p>
                 <p>
-                  Third-year Ph.D. student in Robotics at <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>, advised by Professor <a href="https://www.purduemars.com/home" target="_blank">Yu She</a>.<br> 
+                  Ph.D. student in Robotics at <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>, advised by Professor <a href="https://www.purduemars.com/home" target="_blank">Yu She</a>.<br> 
                   <br>
                   Previously earned Bachelor's and Master's degrees in Engineering from <a href="https://english.hust.edu.cn/" target="_blank">Huazhong University of Science and Technology</a>, advised by Academician <a href="https://ieeexplore.ieee.org/author/37855758100" target="_blank">Han Ding</a> and Prof. <a href="https://scholar.google.com.hk/citations?user=2_-kYqwAAAAJ&hl=en" target="_blank">Huan Zhao</a>.
                 </p>
@@ -85,6 +85,79 @@
         <p></p>
         <p>
         A hierarchical training framework for learning tactile-aware quadrupedal loco-manipulation policies.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:30%;vertical-align:middle">
+        <img src="images/dogtac_overview.svg" alt="dartbot" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
+      </td>
+      <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
+        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">
+          <span class="papertitle">Learning Tactile-Aware Hierarchical Whole-Body Control Policies for Quadrupedal Loco-Manipulation</span>
+        </a>
+        <br>
+        <strong>Pokuang Zhou*</strong>, Le Mao*, Xiyue Chen*, Joseph Campbell, Yu She
+        <br>
+        <em>under review, IROS Workshop on Scalable Tactile Sensing for Dexterous Manipulation <strong style="color: #FF8080; font-style: normal;">(Oral)</strong> </em>, 2026
+        <br>
+        [Journal]
+        <br>
+        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">project page</a> / paper(coming soon)
+        <p></p>
+        <p>
+				Developed a tactile-aware whole-body control framework for quadruped robots in both simulation and real-world environments. Diffusion Policy and world-action models generate high-level commands, while a low-level whole-body control policy, trained with PPO and further refined through RL post-training, tracks these commands and executes coordinated whole-body motions.
+
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:30%;vertical-align:middle">
+        <img src="images/teaser_robotdog_whisker.svg" alt="dartbot" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
+      </td>
+      <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
+        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">
+          <span class="papertitle">Tactile-Guided Quadrupedal Active Loco-Manipulation with Physical 3D Point Clouds</span>
+        </a>
+        <br>
+        <strong>Pokuang Zhou*</strong>, Le Mao*, Yu She
+        <br>
+        <em>under review, </em> 2026
+        <br>
+        [Journal]
+        <br>
+        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">project page</a> 
+        <p></p>
+        <p>
+				  This project enables quadruped robots to perceive physical properties of their surroundings, such as stiffness and compliance, in the wild through tactile sensing and construct physically grounded 3D point clouds.
+
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:30%;vertical-align:middle">
+        <img
+          src="images/Duel_arm_VLA_teaser.svg"
+          alt="dartbot"
+          style="width:100%;border-radius:8px;display:block;margin:0 auto;transform:translateX(8px);"
+        >
+      </td>
+      <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
+        <a href="https://pokuangzhou.github.io/website/>
+          <span class="papertitle">Multimodal VLA-Based Bimanual Cooperative Transport of Heavy Objects</span>
+        </a>
+        <br>
+        <strong>Pokuang Zhou</strong>, Yu She
+        <br>
+        <em>technical report, </em> 2026
+        <br>
+        <a href="https://pokuangzhou.github.io/website/">project page</a> 
+        <p></p>
+        <p>
+				  Fine-tuned the π0.5 vision-language-action model with LoRA and RGB-D multimodal inputs for bimanual manipulation, integrated low-level admittance control on dual UR5 arms for compliant and coordinated execution, and validated the system on real-world heavy-tray transport tasks requiring synchronized bimanual motion.
         </p>
       </td>
     </tr>
@@ -189,29 +262,6 @@
 
     <tr>
       <td style="padding:16px;width:30%;vertical-align:middle">
-        <img src="images/dogtac_overview.svg" alt="dartbot" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
-      </td>
-      <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
-        <a href="https://pokuangzhou.github.io/website/">
-          <span class="papertitle">DogTac: Visuotactile-Based Whole-Body Control of a Quadrupedal Robot with Manipulator</span>
-        </a>
-        <br>
-        <strong>Pokuang Zhou*</strong>, Le Mao*, Xiyue Chen*, Joseph Campbell, Yu She
-        <br>
-        <em>under review, IROS Workshop on Scalable Tactile Sensing for Dexterous Manipulation <strong style="color: #FF8080; font-style: normal;">(Oral)</strong> </em>, 2026
-        <br>
-        [Journal]
-        <br>
-        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">project page</a> / paper(coming soon)
-        <p></p>
-        <p>
-				Developed a reinforcement-learning whole-body controller with visuotactile fusion for a quadruped-arm, enabling diverse loco-manipulation tasks; trained in NVIDIA Isaac Gym and successfully transferred to real-world deployment via sim2real.
-        </p>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="padding:16px;width:30%;vertical-align:middle">
         <img src="images/dartbot.gif" alt="dartbot" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
       </td>
       <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
@@ -295,7 +345,7 @@
         <img src="images/ink_robot.png" alt="Thermally Elongated Thermoplastic Nozzles" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
       </td>
       <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
-        <a href="https://pokuangzhou.github.io/website/">
+        <a href="https://www.nature.com/articles/s44334-026-00092-x">
           <span class="papertitle">Thermally Elongated Thermoplastic Nozzles Unlock Micro-Scale Multimaterial Direct Ink Writing</span>
         </a>
         <br>
@@ -305,7 +355,7 @@
         <br>
         [Journal] Nature Partner Journals Advanced Manufacturing
         <br>
-        <a href="https://doi.org/10.21203/rs.3.rs-8564809/v1">paper</a>
+        <a href="https://www.nature.com/articles/s44334-026-00092-x">paper</a>
         <br>
         <p>
           Thermally elongated thermoplastic nozzles enable rapid in-body 3D printing of micro-scale multimaterial structures for minimally invasive surgical applications.
