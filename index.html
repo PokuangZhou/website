@@ -54,8 +54,8 @@
               <p>
                 Research focuses on
                 <strong><span style="color:#FF8080">embodied AI</span></strong>,
-                <strong><span style="color:#FF8080">robotic manipulation</span></strong>,                
-                loco-manipulation, foundation model, visuotactile representations, control theory, and multi-modal robotic systems.
+                <strong><span style="color:#FF8080">visuotactile policies</span></strong>,
+                robotic manipulation, loco-manipulation, foundation model, bimanual/humanoid manipulation, reinforcement learning, imitation learning, vision-language-action models, world action models and sim-to-real.
                 <br>
                 <br>
                 <em>* indicates equal contribution.</em>
@@ -73,7 +73,7 @@
         <a href="https://arxiv.org/abs/2604.27224">
           <span class="papertitle">Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Loco-Manipulation</span><span class="project-tag">Visuotactile</span><span class="project-tag">IL</span><span class="project-tag">RL</span></div>
         <strong>Pokuang Zhou</strong>, Yuhao Zhou, Quan Khanh Luu, Seungho Han, Heng Zhang, Binghao Huang, Yunzhu Li, Arash Ajoudani, Zhengtong Xu, Yu She
         <br>
         <em>IROS 2026</em>
@@ -97,7 +97,7 @@
         <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">
           <span class="papertitle">Learning Tactile-Aware Hierarchical Whole-Body Control Policies for Quadrupedal Loco-Manipulation</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Loco-Manipulation</span><span class="project-tag">WAM</span><span class="project-tag">IL</span><span class="project-tag">RL</span><span class="project-tag">Sim-to-Real</span></div>
         <strong>Pokuang Zhou*</strong>, Le Mao*, Xiyue Chen, Zhiyuan Zhang, Joseph Campbell, Yu She
         <br>
         <em>under review, IROS Workshop on Scalable Tactile Sensing for Dexterous Manipulation <strong style="color: #FF8080; font-style: normal;">(Spotlight oral)</strong> </em>, <em>CoRL Workshop Dexterous Manipulation</em>, 2026
@@ -115,24 +115,25 @@
 
     <tr>
       <td style="padding:16px;width:30%;vertical-align:middle">
-        <img src="images/teaser_robotdog_whisker.svg" alt="dartbot" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
+        <img
+          src="images/duel_arm_vla.gif"
+          alt="dartbot"
+          style="width:100%;border-radius:8px;display:block;margin:0 auto;transform:translateX(8px);"
+        >
       </td>
       <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
-        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">
-          <span class="papertitle">Tactile-Guided Quadrupedal Active Loco-Manipulation with Physical 3D Point Clouds</span>
+        <a href="https://pokuangzhou.github.io/website/">
+          <span class="papertitle">Multimodal VLA-Based Bimanual Cooperative Transport of Heavy Objects</span>
         </a>
+        <div class="project-tags"><span class="project-tag">Bimanual Manipulation</span><span class="project-tag">VLA</span></div>
+        <strong>Pokuang Zhou</strong>, Yu She
         <br>
-        <strong>Pokuang Zhou*</strong>, Le Mao*, Yu She
+        <em>technical report, </em> 2026
         <br>
-        <em>under review, </em> 2026
-        <br>
-        [Journal]
-        <br>
-        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">project page</a> 
+        <a href="https://pokuangzhou.github.io/website/">project page</a>
         <p></p>
         <p>
-				  This project enables quadruped robots to perceive physical properties of their surroundings, such as stiffness and compliance, in the wild through tactile sensing and construct physically grounded 3D point clouds.
-
+				  Fine-tuned the π0.5 vision-language-action model with LoRA and RGB-D multimodal inputs for bimanual manipulation, integrated low-level admittance control on dual UR5 arms for compliant and coordinated execution, and validated the system on real-world heavy-tray transport tasks requiring synchronized bimanual motion.
         </p>
       </td>
     </tr>
@@ -145,7 +146,7 @@
         <a href="https://pokuangzhou.github.io/touch_before_you_buy_website/">
           <span class="papertitle">Touch Before You Buy: Humanoid Agents Grounding Decisions Through Physical Interaction via Foundation Model</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Humanoid Manipulation</span><span class="project-tag">World Foundation Model</span><span class="project-tag">Visuotactile</span></div>
         <strong>Pokuang Zhou</strong>, Yicong Wang, Zhiyuan Zhang, Yu She
         <br>
         <em>under review, </em> 2026
@@ -159,25 +160,24 @@
 
     <tr>
       <td style="padding:16px;width:30%;vertical-align:middle">
-        <img
-          src="images/duel_arm_vla.gif"
-          alt="dartbot"
-          style="width:100%;border-radius:8px;display:block;margin:0 auto;transform:translateX(8px);"
-        >
+        <img src="images/teaser_robotdog_whisker.svg" alt="dartbot" style="width:120%;border-radius:8px;display:block;margin:0 auto;">
       </td>
       <td style="padding:8px 0 8px 48px;width:70%;vertical-align:middle">
-        <a href="https://pokuangzhou.github.io/website/>
-          <span class="papertitle">Multimodal VLA-Based Bimanual Cooperative Transport of Heavy Objects</span>
+        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">
+          <span class="papertitle">Tactile-Guided Quadrupedal Active Loco-Manipulation with Physical 3D Point Clouds</span>
         </a>
+        <div class="project-tags"><span class="project-tag">Visuotactile</span><span class="project-tag">3D Perception</span></div>
+        <strong>Pokuang Zhou*</strong>, Le Mao*, Yu She
         <br>
-        <strong>Pokuang Zhou</strong>, Yu She
+        <em>under review, </em> 2026
         <br>
-        <em>technical report, </em> 2026
+        [Journal]
         <br>
-        <a href="https://pokuangzhou.github.io/website/">project page</a> 
+        <a href="https://pokuangzhou.github.io/tactile-aware-quadrupedal-loco-manipulation/">project page</a>
         <p></p>
         <p>
-				  Fine-tuned the π0.5 vision-language-action model with LoRA and RGB-D multimodal inputs for bimanual manipulation, integrated low-level admittance control on dual UR5 arms for compliant and coordinated execution, and validated the system on real-world heavy-tray transport tasks requiring synchronized bimanual motion.
+				  This project enables quadruped robots to perceive physical properties of their surroundings, such as stiffness and compliance, in the wild through tactile sensing and construct physically grounded 3D point clouds.
+
         </p>
       </td>
     </tr>
@@ -190,7 +190,7 @@
         <a href="https://contact-world.github.io/">
           <span class="papertitle">ContactWorld: What Matters in Vision-Tactile World Models for Contact-Rich Manipulation</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Visuotactile</span><span class="project-tag">World Model</span><span class="project-tag">Manipulation</span></div>
         Zhiyuan Zhang*, <strong>Pokuang Zhou*</strong>, Kaidi Zhang, Adeesh Desai, Temitope Ibrahim Amosa, Davood Soleymanzadeh, Jiuzhou Lei, Minghui Zheng, Yu She
         <br>
         <em>arxiv 2026</em>
@@ -213,7 +213,7 @@
         <a href="https://zhengtongxu.github.io/manifeel-website/">
           <span class="papertitle">ManiFeel: Benchmarking and Understanding Visuotactile Manipulation Policy Learning</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Visuotactile</span><span class="project-tag">IL</span></div>
         Quan Khanh Luu*, <strong>Pokuang Zhou*</strong>, Zhengtong Xu*, Zhiyuan Zhang, Qiang Qiu, Yu She
         <br>
         <em>arXiv</em>, 2026 CVPR SOS workshop <font color="red"><strong>(Best Paper)</strong></font>, 2025 New England Manipulation Symposium &nbsp <font color=#FF8080><strong>(Oral)</strong></font>
@@ -237,7 +237,7 @@
 			<span class="papertitle">In-Hand Singulation, Scooping, and Cable Untangling with a 5-Dof Tactile-Reactive Gripper
 </span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">In-Hand Manipulation</span><span class="project-tag">Tactile Sensing</span><span class="project-tag">Robot Control</span></div>
         Yuhao Zhou*, <strong>Pokuang Zhou*</strong>, Shaoxiong Wang, Yu She
         <br>
         <em>ADRR</em>, 2025 &nbsp <font color="red"><strong>(Cover Feature)</strong></font>
@@ -263,7 +263,7 @@
         <a href="https://ieeexplore.ieee.org/abstract/document/11023035">
           <span class="papertitle">Safe Human-Robot Collaboration With Risk Tunable Control Barrier Functions</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Robot Control</span><span class="project-tag">Safe HRI</span></div>
         Vipul K Sharma*, <strong>Pokuang Zhou*</strong>, Zhengtong Xu*, Yu She, S Sivaranjani
         <br>
         <em>T-MECH and AIM</em>, 2025 &nbsp <font color=#FF8080><strong>(Best Student Paper Nomination)</strong></font>
@@ -288,7 +288,7 @@
         <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10947008">
           <span class="papertitle">DartBot: Overhand Throwing of Deformable Objects with Tactile Sensing and Reinforcement Learning</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Visuotactile</span><span class="project-tag">RL</span><span class="project-tag">Dynamic Manipulation</span></div>
         Shoaib Aslam*, Krish Kumar*,<strong>Pokuang Zhou*</strong>, Hongyu Yu, Michael Wang, Yu She
         <br>
         <em>T-ASE and CASE</em>, 2025 
@@ -321,7 +321,7 @@
         <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.202500117">
           <span class="papertitle">TacScope: A Miniaturized Vision-based Tactile Sensor for Surgical Applications</span>
         </a>
-        <br>  
+        <div class="project-tags"><span class="project-tag">Tactile Sensing</span><span class="project-tag">Sensor Design</span></div>
         Md Rakibul Islam Prince, Sheeraz Athar, <strong>Pokuang Zhou</strong>, Yu She        
         <br>
         <em>ADRR</em>, 2025 
@@ -346,7 +346,7 @@
         <a href="https://arxiv.org/abs/2512.11908">
           <span class="papertitle">Safe Learning for Contact-Rich Robot Tasks: A Survey From Classical Learning-Based Methods to Safe Foundation Models</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Safe Robotics</span><span class="project-tag">Foundation Models</span></div>
         Heng Zhang, Rui Dai, Gokhan Solak, <strong>Pokuang Zhou</strong>, Yu She, Arash Ajoudani
         <br>
         <em>npj Robotics</em>, 2026 
@@ -370,7 +370,7 @@
         <a href="https://www.nature.com/articles/s44334-026-00092-x">
           <span class="papertitle">Thermally Elongated Thermoplastic Nozzles Unlock Micro-Scale Multimaterial Direct Ink Writing</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Manufacturing</span><span class="project-tag">Robot Control</span></div>
         Jue Wang*, Zeyu Ma*, Renkun Wang*, Jeonghoon Lee, <strong>Pokuang Zhou</strong>, Evan Zhang, Yu She, Liguo Qin, Alex Chortos
         <br>
         <em>npj Adv. Manuf.</em>, 2026
@@ -393,7 +393,7 @@
         <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10802003">
           <span class="papertitle">Stick Roller: Precise In-hand Stick Rolling with a Sample-Efficient Tactile Model</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">In-Hand Manipulation</span><span class="project-tag">Tactile Sensing</span><span class="project-tag">Robot Control</span></div>
         Yipai Du, <strong>Pokuang Zhou</strong>, Michael Yu Wang, Wenzhao Lian, Yu She        
         <br>
         <em>IROS</em>, 2024 
@@ -419,7 +419,7 @@
 			<span class="papertitle">In-Hand Singulation and Scooping Manipulation with a 5 DOF Tactile Gripper
       </span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">In-Hand Manipulation</span><span class="project-tag">Tactile Sensing</span><span class="project-tag">Robot Control</span></div>
         Yuhao Zhou, <strong>Pokuang Zhou</strong>, Shaoxiong Wang, Yu She
         <br>
         <em>IROS</em>, 2024 
@@ -444,7 +444,7 @@
         <a href="https://doi.org/10.1016/j.atech.2025.101427">
           <span class="papertitle">Robotic System with Tactile-Enabled High-Resolution Hyperspectral Imaging Device for Autonomous Corn Leaf Phenotyping in Controlled Environments</span>
         </a>
-        <br>
+        <div class="project-tags"><span class="project-tag">Visuotactile</span><span class="project-tag">Agricultural Robotics</span><span class="project-tag">Robot Control</span></div>
         Xuan Li, Ziling Chen, Raghava Sai Uppuluri, <strong>Pokuang Zhou</strong>, Tianzhang Zhao, Darrell Zachary Good, Yu She, Jian Jin   
         <br>
         <em> ATECH</em>, 2025
